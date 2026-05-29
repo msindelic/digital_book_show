@@ -1,30 +1,24 @@
-# Logs
-*.log
-logs/
+# environment variables
+*.env
 
-# Dependencies
-node_modules/
-vendor/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Build outputs
-build/
-dist/
-out/
+# testing
+/coverage
 
-# Cache
-.cache/
-*.tmp
+# production
+/build
 
-# Environment variables
-.env*
+# misc
+*.DS_Store
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
