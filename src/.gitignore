@@ -16,7 +16,7 @@ out/
 *.tmp
 
 # Environment variables
-.env
+.env*
 .env.local
 
 # IDE
