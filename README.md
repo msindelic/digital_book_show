@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 # 📚 Digital Book Show
 
@@ -173,5 +173,3 @@ This project was built as a final project for ReDI School of Digital Integration
 ---
 
 *Built with ❤️ and a lot of ☕*
-
->>>>>>> 3aa81c3 (added readme infos :memo:)
