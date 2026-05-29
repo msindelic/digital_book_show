@@ -1,5 +1,3 @@
-
-=======
 # 📚 Digital Book Show
 
 A modern digital library web application built with React and TypeScript that allows users to search, explore, and save books using real-time data from the Google Books API.
