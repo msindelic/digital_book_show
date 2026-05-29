@@ -34,7 +34,6 @@ A modern digital library web application built with React and TypeScript that al
 | Vite | Build tool and dev server |
 | Tailwind CSS | Utility-first styling |
 | React Router | Client-side navigation |
-| React Hook Form | Form handling and validation |
 | Google Books API | Real book data |
 
 ---
@@ -52,13 +51,12 @@ src/
 ├── context/
 │   └── FavoritesContext.tsx  # Global favourites state
 ├── hooks/
-│   ├── useBookSearch.ts      # Custom hook for search logic
-│   └── use-debounce.ts       # Custom debounce hook
+└── use-debounce.ts           # Custom debounce hook
 ├── components/
 │   ├── Navbar.tsx            # Navigation bar
 │   ├── BookCard.tsx          # Book card component
 │   ├── SearchBar.tsx         # Search input component
-│   ├── ReviewForm.tsx        # Book review form
+│ 
 │   ├── Skeleton.tsx          # Loading placeholders
 │   └── Footer.tsx            # Footer component
 └── pages/
@@ -121,7 +119,7 @@ Used throughout the app to manage loading states, book data, and side effects li
 `FavoritesContext` provides global favourites state to all components without prop drilling.
 
 ### Custom Hooks
-- `useBookSearch` — encapsulates all search logic (fetch, loading, error, pagination)
+
 - `useDebounce` — delays value updates to prevent excessive re-renders
 
 ### React Router
@@ -130,9 +128,6 @@ Multiple pages with clean URL structure:
 - `/search?q=` — Search results
 - `/book/:id` — Dynamic book detail
 - `/favorites` — Saved collection
-
-### React Hook Form
-Used in `ReviewForm` for form validation and submission with minimal re-renders.
 
 ---
 
