@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { FavoritesProvider } from './context/FavoritesContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -29,10 +29,10 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <FavoritesProvider>
         <AppLayout />
       </FavoritesProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
