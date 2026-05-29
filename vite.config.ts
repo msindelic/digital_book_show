@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/msindelic',
+  base: '/digital_book_show/',
   server: {
     port: 5173,
     open: true,
