@@ -13,9 +13,9 @@ export default function Footer() {
 
           <nav className="flex items-center gap-6">
             {[
-              { to: '/', label: 'Home' },
-              { to: '/search', label: 'Search' },
-              { to: '/favorites', label: 'Favourites' },
+              { to: 'https://github.com/msindelic', label: 'GitHub' },
+              { to: 'https://www.linkedin.com/in/msindelic84', label: 'Linkedin' },
+              { to: 'https://x.com/mihailosindelic', label: 'Twitter' },
             ].map(({ to, label }) => (
               <Link
                 key={to}
