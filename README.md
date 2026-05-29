@@ -8,7 +8,7 @@ A modern digital library web application built with React and TypeScript that al
 
 ## 🚀 Live Demo
 
-> Add your deployed link here (Vercel, Netlify, etc.)
+> 
 
 ---
 
