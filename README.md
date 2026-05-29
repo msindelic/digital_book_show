@@ -8,7 +8,7 @@ A modern digital library web application built with React and TypeScript that al
 
 ## 🚀 Live Demo
 
-> 
+> https://msindelic.github.io/digital_book_show/
 
 ---
 
