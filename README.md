@@ -150,6 +150,7 @@ In accordance with ReDI School's academic honesty policy, I used Claude (Anthrop
 
 ## 🔮 Future Improvements
 
+- [X] Deploy project to GitHub Pages
 - [ ] Add Jest + React Testing Library tests
 - [ ] Dark mode toggle
 - [ ] User authentication and personal libraries
