@@ -151,6 +151,7 @@ In accordance with ReDI School's academic honesty policy, I used Claude (Anthrop
 ## 🔮 Future Improvements
 
 - [ ] Add Jest + React Testing Library tests    
+- [ ] Create Multi-Language Support
 - [ ] Dark mode toggle
 - [ ] User authentication and personal libraries
 - [ ] Reading progress tracker
