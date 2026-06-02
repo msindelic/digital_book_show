@@ -27,7 +27,7 @@ export default function SearchPage() {
       const startIndex = (page - 1) * PAGE_SIZE;
       const result = await searchBooks(query, startIndex, PAGE_SIZE);
       setBooks(result.books);
-      setTotalItems(Math.min(result.totalItems, 1000)); // Google Books caps at 1000
+      setTotalItems(Math.min(result.totalItems, 300)); // Google Books caps at 300
     } catch (e) {
       setError('Something went wrong. Please try again.');
     } finally {
