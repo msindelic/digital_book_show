@@ -17,7 +17,7 @@ A modern digital library web application built with React and TypeScript that al
 - 🔍 **Real-time book search** — search by title, author, or topic
 - 📖 **Book detail page** — full info including description, rating, pages, and publisher
 - ❤️ **Favourites system** — save books to a personal collection with localStorage persistence
-- 📄 **Pagination** — browse results 12 books at a time
+- 📄 **Pagination** — browse results 18 books at a time
 - 💀 **Skeleton loading states** — smooth loading experience
 - ⚠️ **Error handling** — user-friendly error messages including API quota errors
 - 📱 **Responsive design** — works on mobile, tablet, and desktop
