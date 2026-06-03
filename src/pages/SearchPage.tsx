@@ -6,7 +6,7 @@ import { BookCardSkeleton } from '../components/Skeleton';
 import { searchBooks } from '../services/booksApi';
 import { BookVolume } from '../types/book';
 
-const PAGE_SIZE = 18;
+const PAGE_SIZE = 12;
 
 export default function SearchPage() {
   const [searchParams] = useSearchParams();
